@@ -1,222 +1,77 @@
-body {
-  color: #777777;
-  margin-left: 0;
-  margin-right: 0;
-  background-image: url("../images/vertical-waves.png");
-  background-repeat: repeat;
+body{
+  background-color: cornflowerblue;
 }
 
-a {
-  all: none;
-}
-
-#nav {
-  margin: 0px;
-  border: 5px;
-  border-color: #cccccc;
-  background-color: #ffffff;
-  border-bottom-style: solid;
-  padding: 18px;
-  font-family: Georgia;
-  z-index: 10;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
-#welcome {
-  background-color: #4aaaa5;
+#do{
+  font-size: 56px;
+  font-family: 'Cinzel', serif;
   color: white;
-  text-align: center;
-  margin-left: 10%;
-  padding: 18px 30px 18px 30px;
-  font-size: 35px;
-  font-weight: 800;
-  overflow: hidden;
+}
+
+.iframe{
+  height: 600px;
+  width:  inherit;
+}
+#welcome{
+  height: 120;
+  align-content: left;
+  padding-top: 25;
+}
+
+#nav{
+  background-color: grey;
+  margin-bottom: 20px;
+}
+
+#do{
+  align-content: left;
 
 }
 
-#links {
-  margin-right: 10%;
-  float: right;
-  padding-top: 10px;
-  font-size: 25px;
-  font-weight: 200;
-}
-
-#about {
-  padding: 0 15 0 15;
-}
-
-#portfolio {
-  padding: 0 15 0 15;
-  border-left-style: solid;
+.h{
+  padding-top: 20;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  height: 120px;
+  border-right-width: 3;
   border-right-style: solid;
-  border-color: #cccccc;
+  border-right-color: black;
+  background-color: darkkhaki;
 }
 
-#contact {
-  padding: 0 15 0 15;
+.rightside{
+  background-color: aquamarine;
 }
+
+#w{
+  height: 120px;
+  padding-top: 20;
+  color: black;
+  font-family: 'Asap', sans-serif;
+  background-color: darkcyan;
+  padding-top: 20;
+  margin-bottom: 8px;
+  border-left-width: 3;
+  border-left-style: solid;
+  border-left-color: black;
+}
+
 
 a:link {
-  text-decoration: none;
-  color: none;
+  color: inherit;
 }
 
+/* visited link */
 a:visited {
-  text-decoration: none;
-  color: #777777;
+  color: inherit;
 }
 
+/* mouse over link */
 a:hover {
-  text-decoration: none;
-  color: purple;
+  color: darkslategray;
 }
 
+/* selected link */
 a:active {
-  text-decoration: none;
-  /* color: #777777; */
-}
-
-#do {
-  color: white;
-}
-/*BODY BODY BODY BODY BODY BODY  */
-
-#content {
-  background: #ffffff;
-  font-family: "Times New Roman", Times, sans-serif;
-  line-height: 18px;
-  margin: auto;
-  border: solid #dddddd;
-  width: 72%;
-  position: relative;
-  top: 11%;
-  right: 1%;
-}
-
-#heading {
-  padding: 5px 0px 5px 30px;
-  color: #4aaaa5;
-}
-
-#words {
-  padding: 20px 20px;
-  border-top: 2px gray solid;
-  border-left: solid 20px #ffffff;
-  border-right: solid 20px #ffffff;
-  font-size: 20;
-  width: auto;
-  overflow: hidden;
-}
-
-/* CONTACT CONTACT CONTACT CONTACT CONTACT */
-input {
-  width: 85%;
-  height: 25px;
-  display: block;
-  font-size: 20px;
-  margin: 10 0 10 0;
-}
-
-#message {
-  height: 200px;
-  text-align: start;
-}
-
-#submit {
-  margin: 15px;
-  width: 150px;
-  background-color: #4aaaa5;
-  font-size: 15px;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-footer {
-  margin: auto;
-  background-color: #666666;
-  border-color: #4aaaa5;
-  border-top-style: solid;
-  border-top-width: 8px;
-  left: 0;
-  height: 50px;
-  width: 100%;
-  font-family: Georgia;
-  bottom: 0;
-  position: fixed;
-  text-align: center;
-  font-size: 12px;
-  color: white;
-}
-
-
-#aboutpic {
-  height: 30%;
-  float: left;
-  padding: 15px;
-}
-
-#portfoliopics {
-  height: 213px;
-  position: relative;
-  float: left;
-  margin: 25 50 25 50;
-  size: auto;
-}
-
-#hangman-text-block {
-  position: relative;
-  width: 149px;
-  top: -90;
-  background-color: #4aaaa5;
-  color: white;
-  padding: 15 0 15 0;
-  margin: 5 0 5 0;
-  text-align: center;
-}
-
-#rpggame-text-block {
-  position: relative;
-  width: 149px;
-  top: -90;
-  background-color: #4aaaa5;
-  color: white;
-  padding: 15 0 15 0;
-  margin: 5 0 5 0;
-  text-align: center;
-}
-
-#trivia-text-block {
-  position: relative;
-  width: 149px;
-  top: -90;
-  background-color: #4aaaa5;
-  color: white;
-  padding: 15 0 15 0;
-  margin: 5 0 5 0;
-  text-align: center;
-}
-
-#rutgers-text-block {
-  position: relative;
-  width: 149px;
-  top: -90;
-  background-color: #4aaaa5;
-  color: white;
-  padding: 15 0 15 0;
-  margin: 5 0 5 0;
-  text-align: center;
-}
-
-#rockpaper-text-block {
-  position: relative;
-  width: 149px;
-  top: -90;
-  background-color: #4aaaa5;
-  color: white;
-  padding: 15 0 15 0;
-  margin: 5 0 5 0;
-  text-align: center;
+  color: inherit;
 }
