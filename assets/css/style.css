@@ -1,37 +1,60 @@
-body{
+body {
   background-color: white;
 }
 
 
 
 /*ID's*/
-#myname{
+#titlename {
   font-family: 'Cinzel', serif;
   text-align: center;
-  padding-left: 5em;
-
+  padding-left: 2em;
+  font-size: 1.5em;
 }
 
-#home{
+#projecttitlename {
+  font-family: 'Cinzel', serif;
+  text-align: left;
+}
+
+#home {
   font-family: 'Abril Fatface', cursive;
 }
 
-#home{
+#home {
   margin-top: 5em;
   padding-left: 4em;
   font-size: xx-large;
 }
 
-
-/*Classes*/
-
-.wordsstyle{
+#landingname {
+  text-align: left;
   font-family: 'asap', sans-serif;
 }
 
-.container-fluid{
+#image {
+  height: 17em;
+  width: 25em;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+/*Classes*/
+
+.wordsstyle {
+  font-family: 'asap', sans-serif;
+}
+
+.container-fluid {
   padding-right: 0px;
   padding-left: 0px;
+}
+
+.navitem {
+  font-family: 'cinzel', sans-serif;
+  text-align: left;
 }
 
 
@@ -56,49 +79,85 @@ a:active {
   color: inherit;
 }
 
+/*Hexagon for Landing Image*/
+.hexagon {
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+  cursor: pointer;
+}
+
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.hexagon-in2 {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 175%;
+  background-image: url("../images/daniellanding.jpg");
+  visibility: visible;
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.hexagon2 {
+  width: 20em;
+  height: 20em;
+  margin: 4em 0 0 0px;
+}
 
 /* Responsiveness*/
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* .page{
-  display: flex;
-  flex-wrap: wrap;
-} */
 
-
-.navbar{
+.navbar {
   background-color: grey;
   width: 100%;
   height: 5em;
   align-items: center;
 }
 
-.navitem{
+.navitem {
   background-color: grey;
   width: 100%;
   display: inline-block;
   align-content: center;
-  text-align: right;
+  text-align: left;
 }
 
-.content{
+.content {
   padding-top: 2%;
   height: auto;
   width: auto;
   display: inline-block;
 }
 
-.image-content{
+.image-content {
   display: block;
   padding-bottom: 2em;
 }
-
-
 
 .row {
   margin-left: 0;
@@ -108,45 +167,70 @@ a:active {
 
 /* Mobile Styles */
 
-@media only screen and (max-width:425px) {
-  .navitem{
+@media only screen and (max-width:800px) {
+  .navitem {
     text-align: center;
   }
-  #myname{
+
+  #titlename {
     text-align: center;
+    padding-left: 1em;
+    font-size: 1.3em;
   }
-  .navbar{
+
+  .navbar {
     height: 7em;
   }
-  #home{
+
+  #home {
     margin-top: 0.5em;
-    padding-left: 1em;
+    padding-left: .7em;
   }
-  #heading{
-  font-size: large;
+
+  #heading {
+    font-size: large;
   }
+
   .wordsstyle {
-    padding-left: 2em;
+    padding-left: 1.5em;
   }
 
-};
+  .hexagon2 {
+    width: 17em;
+    height: 12em;
+    margin: 0 0 0 0;
 
-/* Tablet Styles */
-@media only screen and (min-width:401px) and (max-width:960px) {
-  .navitem{
-    text-align: center;
-  }
-  #myname{
-    text-align: center;
   }
 
-  .navitem{
-    height: 8em;
+  #image{
+    height: 12em;
+    width: 18em;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: black;
   }
 
-};
+  ;
 
+  /* Tablet Styles */
+  @media only screen and (min-width: 500px) and (max-width:960px) {
+    .navitem {
+      text-align: left;
+    }
 
-/*Desktop Styles */
-@media only screen and (min-width:961px) {
-}
+    #titlename {
+      text-align: center;
+      padding-left: 1em;
+      font-size: 1.5em;
+    }
+
+    .navitem {
+      height: 8em;
+    }
+
+  }
+
+  ;
+
+  /*Desktop Styles */
+  @media only screen and (min-width:961px) {}
