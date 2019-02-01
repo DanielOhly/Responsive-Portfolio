@@ -1,61 +1,41 @@
 body{
-  background-color: cornflowerblue;
+  background-color: white;
 }
 
-#do{
-  font-size: 56px;
+
+
+/*ID's*/
+#myname{
   font-family: 'Cinzel', serif;
-  color: white;
-}
-
-.iframe{
-  height: 600px;
-  width:  inherit;
-}
-#welcome{
-  height: 120;
-  align-content: left;
-  padding-top: 25;
-}
-
-#nav{
-  background-color: grey;
-  margin-bottom: 20px;
-}
-
-#do{
-  align-content: left;
+  text-align: center;
+  padding-left: 5em;
 
 }
 
-.h{
-  padding-top: 20;
-  color: black;
+#home{
   font-family: 'Abril Fatface', cursive;
-  height: 120px;
-  border-right-width: 3;
-  border-right-style: solid;
-  border-right-color: black;
-  background-color: darkkhaki;
 }
 
-.rightside{
-  background-color: aquamarine;
+#home{
+  margin-top: 5em;
+  padding-left: 4em;
+  font-size: xx-large;
 }
 
-#w{
-  height: 120px;
-  padding-top: 20;
-  color: black;
-  font-family: 'Asap', sans-serif;
-  background-color: darkcyan;
-  padding-top: 20;
-  margin-bottom: 8px;
-  border-left-width: 3;
-  border-left-style: solid;
-  border-left-color: black;
+
+/*Classes*/
+
+.wordsstyle{
+  font-family: 'asap', sans-serif;
 }
 
+.container-fluid{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+/*Link Designation Begins Here*/
 
 a:link {
   color: inherit;
@@ -74,4 +54,99 @@ a:hover {
 /* selected link */
 a:active {
   color: inherit;
+}
+
+
+/* Responsiveness*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .page{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+
+.navbar{
+  background-color: grey;
+  width: 100%;
+  height: 5em;
+  align-items: center;
+}
+
+.navitem{
+  background-color: grey;
+  width: 100%;
+  display: inline-block;
+  align-content: center;
+  text-align: right;
+}
+
+.content{
+  padding-top: 2%;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+
+.image-content{
+  display: block;
+  padding-bottom: 2em;
+}
+
+
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/* Mobile Styles */
+
+@media only screen and (max-width:425px) {
+  .navitem{
+    text-align: center;
+  }
+  #myname{
+    text-align: center;
+  }
+  .navbar{
+    height: 7em;
+  }
+  #home{
+    margin-top: 0.5em;
+    padding-left: 1em;
+  }
+  #heading{
+  font-size: large;
+  }
+  .wordsstyle {
+    padding-left: 2em;
+  }
+
+};
+
+/* Tablet Styles */
+@media only screen and (min-width:401px) and (max-width:960px) {
+  .navitem{
+    text-align: center;
+  }
+  #myname{
+    text-align: center;
+  }
+
+  .navitem{
+    height: 8em;
+  }
+
+};
+
+
+/*Desktop Styles */
+@media only screen and (min-width:961px) {
 }
