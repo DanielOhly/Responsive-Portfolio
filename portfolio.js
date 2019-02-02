@@ -1,3 +1,5 @@
+        
+// Javascript Objects that hold the HTML for the different pages.
         const landing = {
             home: "<div id=\"landingname\"> Hello!</div>"+
                         "<div class= \"wordsstyle\"<p>My name is Daniel Ohly, I am a junior full stack web developer and recent graduate of the UT Austin Web Development Boot Camp.</p>"+
@@ -52,6 +54,8 @@
             "<div id=\"contact-link-spacing\"><a target=\"blank\" href=\"https://github.com/DanielOhly\"><img id=\"contact-link-image\" src=\"assets/images/github.png\"></a></div>"
         }
 
+
+//JS Function that changes the two different elements inside the main page.
         function infoChange(arg) {
             document.getElementById("home").innerHTML = arg.home;
             document.getElementById("words").innerHTML = arg.words;
