@@ -2,18 +2,16 @@ body {
   background-color: white;
 }
 
-
-
 /*ID's*/
 #titlename {
-  font-family: 'Cinzel', serif;
+  font-family: 'abril fatface', serif;
   text-align: center;
   padding-left: 2em;
   font-size: 1.5em;
 }
 
 #projecttitlename {
-  font-family: 'Cinzel', serif;
+  font-family: 'abril fatface', serif;
   text-align: left;
 }
 
@@ -30,6 +28,7 @@ body {
 #landingname {
   text-align: left;
   font-family: 'asap', sans-serif;
+  margin-top: -5em;
 }
 
 #image {
@@ -40,11 +39,23 @@ body {
   border-color: black;
 }
 
+#contact-link-image{
+  height: 2em;
+  padding-left: 2em;
+}
+
+#contact-link-spacing{
+  height: 3em;
+  font-size: x-large;
+  padding-top: 4em;
+}
+
 
 /*Classes*/
 
 .wordsstyle {
   font-family: 'asap', sans-serif;
+  font-size: medium;
 }
 
 .container-fluid {
@@ -53,7 +64,7 @@ body {
 }
 
 .navitem {
-  font-family: 'cinzel', sans-serif;
+  font-family: 'abril fatface', sans-serif;
   text-align: left;
 }
 
@@ -131,20 +142,20 @@ a:active {
   box-sizing: border-box;
 }
 
-
 .navbar {
-  background-color: grey;
+  background-color: #949494;
   width: 100%;
   height: 5em;
   align-items: center;
 }
 
 .navitem {
-  background-color: grey;
+  background-color: #949494;
   width: 100%;
   display: inline-block;
   align-content: center;
   text-align: left;
+  cursor: -webkit-grab;
 }
 
 .content {
@@ -168,69 +179,66 @@ a:active {
 /* Mobile Styles */
 
 @media only screen and (max-width:800px) {
+
+
+  /*Classes*/
   .navitem {
     text-align: center;
   }
+  .navbar {
+    height: 7em;
+  }
+  .wordsstyle {
+    padding-left: 1.5em;
+  }
+  .hexagon2 {
+    width: 17em;
+    height: 12em;
+    margin: 0 0 0 0;
+  }
+
+  /*ID's*/
 
   #titlename {
     text-align: center;
     padding-left: 1em;
     font-size: 1.3em;
   }
-
-  .navbar {
-    height: 7em;
+  #landingname {
+    margin-top: 0em;
   }
-
   #home {
     margin-top: 0.5em;
     padding-left: .7em;
   }
-
   #heading {
     font-size: large;
   }
-
-  .wordsstyle {
-    padding-left: 1.5em;
-  }
-
-  .hexagon2 {
-    width: 17em;
-    height: 12em;
-    margin: 0 0 0 0;
-
-  }
-
   #image{
     height: 12em;
     width: 18em;
     border-radius: 16px;
     border-style: solid;
     border-color: black;
-  }
-
-  ;
+  };
 
   /* Tablet Styles */
   @media only screen and (min-width: 500px) and (max-width:960px) {
+    /*Class*/
     .navitem {
       text-align: left;
     }
+    .navitem {
+      height: 8em;
+    }
 
+    /*ID*/
     #titlename {
       text-align: center;
       padding-left: 1em;
       font-size: 1.5em;
     }
-
-    .navitem {
-      height: 8em;
-    }
-
-  }
-
-  ;
-
+  };
   /*Desktop Styles */
-  @media only screen and (min-width:961px) {}
+  @media only screen and (min-width:961px) {
+  };

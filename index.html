@@ -14,13 +14,14 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
 </head>
 
 <body onload=infoChange(landing)>
     <div class="container-fluid page">
         <div class="navbar navbar-fixed-top row">
             <div class="col-md-3 navitem" onclick=infoChange(landing) id="titlename">Daniel Ohly</div>
-            <div class="col-md-2 navitem" onclick=infoChange(dohly)>Background</div>
+            <div class="col-md-2 navitem" onclick=infoChange(dohly)><a>Background</a></div>
             <div class="col-md-2 navitem" onclick=infoChange(projects)>Projects</div>
             <div class="col-md-2 navitem" onclick=infoChange(contacts)>Contact</div>
             <div class="col-md-2"></div>
@@ -33,53 +34,7 @@
 </body>
 
 <footer>
-    <script>
-        const landing = {
-            home: "Daniel Ohly",
-            words:    "<div class=\"hexagon hexagon2\">"+
-                            "<div class=\"hexagon-in1\">"+
-                                "<div class=\"hexagon-in2\">"+
-                                "</div>"+
-                            "</div>"+
-                        "</div>"+
-                        "<p id=\"landingname\"> Hello!</p>"+
-                        "<p> My name is Daniel Ohly, I am a junior full stack web developer and recent graduate of the UT Austin Web Development Boot Camp.</p>"+
-                        "<p> I  "
-        }
-
-        const dohly = {
-            home: "My scoop",
-            words: ""
-        }
-        const projects = {
-            home: "Projects",
-            words: "<div class=\"content\"><div id= \"projecttitlename\"><b>Home Movies</b></div>" +
-                "<p>An interactive satire site meant to engage people to watch movies together, at other people's homes. An attempt to get people to socialize, in a farscial manner.</p>" +
-                "<p>The big lessons learned here were reading a whole lot of documentation, manipulating DOM, and database utilization. </p>"+
-                "<p>Utilizing JavaScript, JSON, Firebase, JQuery, Bootstrap, Google Maps API and OMDB API</p></div>" +
-                "<div class= \"image-content\"><a target= \"blank\"href=\"https://www.google.com/\"><img id=\"image\" src=\"assets/images/homemovies.png\"></a></div>" +
-                "<div class=\"content\"><div id= \"projecttitlename\"><b> Nenas Arepa Kitchen </b>" + "</div>" +
-                "<p> A simple single page website for a local independent food company<p>" +
-                "<p> The goal was to put together a straightforward website that would give the client what they needed, without being too busy or info dense.</p>"+
-                "<p> Utilizing JQuery CSS, HTML and Bootstrap<p>" + "</div>" +
-                "<div class= \"image-content\"><a target= \"blank\"href=\"http://www.nenasarepakitchen.com/#\"><img id=\"image\" src=\"assets/images/nenas.png\"></a></div>"+
-                "<div class=\"content\"><div id= \"projecttitlename\"><b> In Progress: The Heroes of Inesland </b>" + "</div>" +
-                "<p> An attempt for my D&D group to keep their character data straight if they leave their character sheets at home. Also as a method of memoralizing former campaigns.<p>" +
-                "<p> It is utilizing Firebase, JavaScript and JSON Requests, but with the intention of having more user input and user validation.<p>"+
-                "<div class= \"image-content\"><a target= \"blank\"href=\"http://www.nenasarepakitchen.com/#\"><img id=\"image\" src=\"assets/images/ithicwoods.png\"></a></div>"
-
-        }
-
-        const contacts = {
-            home: "Contact Me",
-            words: "Phone Number: E-Mail: LinkedIn:"
-        }
-
-        function infoChange(arg) {
-            document.getElementById("home").innerHTML = arg.home;
-            document.getElementById("words").innerHTML = arg.words;
-        }
-    </script>
+    
 </footer>
 
 </body>
