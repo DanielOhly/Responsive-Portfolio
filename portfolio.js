@@ -17,7 +17,6 @@
         const dohly = {
             home: "My scoop",
             words: 
-            "<p>My resume is available "+"<a href=\"assets/images/danielohlyresume.pdf\" target=\"blank\">HERE</a></p>"+
             "<p>Development drives me, creative problem solving while working in the confines of a particular language is a gratifying thing.</p>"+
             "<p>I love learning new languages and development techniques, and working towards mastery in them. I&rsquo;m a huge fan of poring over documentation, and gaining greater understanding."+
             "<p>Lately I have been focusing on Vanilla JS, and database schema.</p>"+
@@ -27,7 +26,6 @@
             "<ul><b>Many hands make light work:</b> Sometimes it is as simple as asking for help, sometimes it can be asking questions from people who&rsquo;ve been through it.</ul>"+
             "<ul><b>Learn from your mistakes:</b> Everyone makes mistakes, all the time, and that&rsquo;s cool. As long as you learn from them and keep going.</ul>"+
             "<p>In my normal human time I love spending time with my wife, checking out restaurants or hanging out with our dogs. I&rsquo;m a huge D&D nerd, movie buff and comic book dork. I keep my street cred by riding my bike as much as possible. <p>"+
-            "<p>My resume is available "+"<a href=\"assets/images/danielohlyresume.pdf\" target=\"blank\">HERE</a></p>"+
             "<p>Thanks for your time!</p>"+
             "<p>BEST!</p>"+
             "<p>Daniel Ohly</p>"            
@@ -44,11 +42,10 @@
                 "<p> It is currently utilizing Firebase and JavaScript, focusing on a RESTful API to store user input. I am working towards it being a useful tool for first time D&D players to learn the ins and outs of my favorite game!<p>"+
                 "<p> Check out my progress on my GitHub here: <a style=\"text-decoration: underline\"target= \"blank\"href=\"secret.html\">Inesland</a></p>"+
                 "<div class= \"image-content\"><a target= \"blank\"href=\"secret.html\"><img id=\"image\" src=\"assets/images/ithicwoods.png\"></a></div>"+
-            
                 "<div class=\"content\"><div id= \"projecttitlename\"><b> Nenas Arepa Kitchen </b>" + "</div>" +
                 "<p> A simple single page website for a local independent food company<p>" +
                 "<p> The goal was to put together a straightforward website that would give the client what they needed, without being too busy or info dense.</p>"+
-                "<p> Utilizing JQuery CSS, HTML and Bootstrap<p>" + "</div>" +
+                "<p> Utilizing JQuery, CSS, HTML and Bootstrap<p>" + "</div>" +
                 "<div class= \"image-content\"><a target= \"blank\"href=\"http://www.nenasarepakitchen.com/#\"><img id=\"image\" src=\"assets/images/nenas.png\"></a></div>"
         }
 
