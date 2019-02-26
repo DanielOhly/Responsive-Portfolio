@@ -2,8 +2,7 @@
 // Javascript Objects that hold the HTML for the different pages.
         const landing = {
             home: "<div id=\"landingname\"> Hello!</div>"+
-                        "<div class= \"wordsstyle\"<p>My name is Daniel Ohly, I am a junior full stack web developer and graduate of the UT Austin Web Development Boot Camp.</p>"+
-                        "<p>I am actively looking to acquire a junior position in the web development field. I am incredibly eager to learn more, and join a killer team.</p>"+
+                        "<div class= \"wordsstyle\"<p>My name is Daniel Ohly, and I am a full stack web developer.</p>"+
                         "<p>I am diligent, focused, amiable and great under pressure. I&rsquo;m an incredible asset to a team, and I hope to be a part of yours!</p></div>",
             words:    "<div class=\"hexagon hexagon2\">"+
                             "<div class=\"hexagon-in1\">"+
